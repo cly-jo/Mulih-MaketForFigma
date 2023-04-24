@@ -1,0 +1,39 @@
+.main {
+  font-family: var(--ff-text);
+  font-weight: var(--fw-regular);
+  background-color: var(--clr-gray-50);
+}
+.main ::selection {
+  color: var(--clr-gray-100);
+  background-color: var(--clr-primary);
+}
+.main *,
+.main *::before,
+.main *::after {
+  box-sizing: border-box;
+}
+.main a {
+  text-decoration: none;
+}
+.main a,
+.main a:visited,
+.main a:hover,
+.main a:active {
+  color: inherit;
+}
+.main ul {
+  list-style: none;
+  padding: 0;
+}
+.main p,
+.main h1,
+.main h2,
+.main h3,
+.main h4,
+.main h5 {
+  margin: 0;
+  cursor: default;
+}
+.main div {
+  cursor: default;
+}

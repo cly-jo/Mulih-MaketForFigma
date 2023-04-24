@@ -1,0 +1,66 @@
+/* Button */
+.btn {
+  font-size: 1rem;
+  padding: 1em clamp(1em, 3vw, 3em);
+  border: none;
+  font-family: var(--ff-title);
+  font-weight: var(--fw-medium);
+  width: max-content;
+  background-color: transparent;
+  color: var(--clr-primary);
+}
+.btn:hover {
+  color: white;
+  background-color: var(--clr-primary-dark);
+  box-shadow: 0 0 20px rgba(105, 185, 157, 0.58);
+}
+.btn-primary {
+  background-color: var(--clr-primary);
+  color: white;
+}
+.btn-outline {
+  border: 1px solid var(--clr-primary);
+}
+.btn-outline:hover {
+  background-color: var(--clr-primary);
+}
+
+/* Learn More Link */
+.main .learn-more-link {
+  font-weight: var(--fw-medium);
+  font-size: 1.125rem;
+  color: var(--clr-primary);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: max-content;
+}
+.main .learn-more-link:hover {
+  color: var(--clr-primary-dark)
+}
+.main .learn-more-link::after {
+  content: url("../img/utils/learn-more-arrow.svg");
+  margin-top: 8px;
+  filter: drop-shadow(0 0 20px rgba(105, 185, 157, 0.58));
+  display: block;
+}
+
+/* Input */
+.input {
+  border: none;
+  padding: 0.75rem 1rem;
+  font-family: var(--ff-text);
+  font-weight: var(--fw-regular);
+  font-size: 1rem;
+  color: var(--clr-primary);
+  min-width: 3rem;
+}
+.input:focus {
+  outline: none;
+}
+.input::placeholder {
+  font-family: var(--ff-text);
+  font-weight: var(--fw-regular);
+  font-size: 1rem;
+  color: var(--clr-gray-350);
+}

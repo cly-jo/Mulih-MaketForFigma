@@ -1,0 +1,52 @@
+/* Poppins */
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/poppins/Poppins-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/poppins/Poppins-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/poppins/Poppins-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/poppins/Poppins-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+/* Rubik */
+@font-face {
+  font-family: "Rubik";
+  src: url("../fonts/rubik/Rubik-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+/* NunitoSans */
+@font-face {
+  font-family: "NunitoSans";
+  src: url("../fonts/nunito-sans/NunitoSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "NunitoSans";
+  src: url("../fonts/nunito-sans/NunitoSans-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+/* DM Sans */
+@font-face {
+  font-family: "DM Sans";
+  src: url("../fonts/dm-sans/DMSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "DM Sans";
+  src: url("../fonts/dm-sans/DMSans-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
